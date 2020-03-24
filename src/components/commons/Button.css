@@ -1,0 +1,15 @@
+.button {
+  border-radius: 50px;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  align-items: flex-start;
+  box-sizing: border-box;
+  margin: 0em;
+  padding: 10px 30px;
+  user-select: none;
+}
+
+.button:hover, .button:active {
+  opacity: 0.8;
+}
