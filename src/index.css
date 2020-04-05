@@ -15,3 +15,27 @@ code {
 .flat-shadow-in {
 	box-shadow: inset -2px -3px 0 rgba(0,0,0,.4);
 }
+
+.vertical-space-8 {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.vertical-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.horizontal-center {
+  text-align: center;
+  justify-content: center;
+}
+
+.MuiTypography-h2 {
+  text-shadow: 2px 1px 1px rgb(29, 161, 242);
+}
+
+.MuiTypography-h5 {
+  text-shadow: 1px 1px 1px rgb(29, 161, 242);
+}
