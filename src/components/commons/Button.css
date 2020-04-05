@@ -10,8 +10,8 @@
   user-select: none;
 }
 
-.button:hover, .button:active {
+.button:active {
   opacity: 0.8;
   transform: translate(1px, 1px);
-  box-shadow: none;
+  box-shadow: inset 2px 3px 0 rgba(0,0,0,.4);
 }
