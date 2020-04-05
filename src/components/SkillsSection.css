@@ -1,0 +1,13 @@
+.skills-section-container {
+  min-height: 300px;
+  background-color: rgb(18, 18, 31);
+}
+
+.skill-logo-sm {
+  height: auto;
+  width: auto;
+  max-height: 80px;
+  max-width: 150px;
+  padding: 10px;
+  display: inline-block;
+}

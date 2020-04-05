@@ -1,14 +1,16 @@
 import React from 'react';
+import './App.css';
 import IntroSection from './components/IntroSection'
 import TopBar from './components/TopBar'
-import './App.css';
+import SkillsSection from './components/SkillsSection'
 
 function App() {
   return (
-    <div>
+    <>
       <TopBar/>
       <IntroSection/>
-    </div>
+      <SkillsSection/>
+    </>
   );
 }
 
