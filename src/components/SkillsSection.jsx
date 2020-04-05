@@ -5,6 +5,8 @@ import './SkillsSection.css'
 class SkillsSection extends React.Component {
   render() {
     return (
+      <>
+      <object className="wave-bar" data={process.env.PUBLIC_URL + '/wave-bar-1.svg'} type=""/>
       <div className="skills-section-container">
         <div className="p-grid p-justify-center">
           <div className="p-col-12 p-md-4 p-lg-4 p-xl-4 horizontal-center">
@@ -19,6 +21,7 @@ class SkillsSection extends React.Component {
           </div>
         </div>
       </div>
+      </>
     );
   }
 
@@ -29,7 +32,7 @@ class SkillsSection extends React.Component {
   getLogos(logoNames) {
     let logos = []
     logoNames.forEach(logoName => {
-      logos.push(<img alt={logoName} className="skill-logo-sm" src={process.env.PUBLIC_URL + '/logos/' + logoName + ".svg"} /> )
+      logos.push(<img alt={logoName} className="skill-logo-sm" src={process.env.PUBLIC_URL + '/logos/' + logoName + '.svg'} />)
     })
     return logos
   }
