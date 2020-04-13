@@ -18,6 +18,7 @@ class SkillsSection extends React.Component {
           </div>
           <div className="p-col-12 p-md-4 p-lg-4 p-xl-4 horizontal-center">
             <Typography variant="h5" gutterBottom>OTHER</Typography>
+            {this.getOtherLogos()}
           </div>
         </div>
       </div>
@@ -26,13 +27,17 @@ class SkillsSection extends React.Component {
   }
 
   getBackendLogos() {
-    return this.getLogos(["java", "mongodb", "spring-framework"])
+    return this.getLogos(["java", "mongodb", "spring-framework", "golang", "apache-kafka", "maven", "sql-generic", "ibm-mq"])
+  }
+
+  getOtherLogos() {
+    return this.getLogos(["aws", "jenkins", "git"])
   }
 
   getLogos(logoNames) {
     let logos = []
     logoNames.forEach(logoName => {
-      logos.push(<img alt={logoName} className="skill-logo-sm" src={process.env.PUBLIC_URL + '/logos/' + logoName + '.svg'} />)
+      logos.push(<img className="skill-logo-sm" src={process.env.PUBLIC_URL + '/logos/' + logoName + '.svg'} />)
     })
     return logos
   }

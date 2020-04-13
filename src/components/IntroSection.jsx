@@ -9,7 +9,7 @@ class IntroSection extends React.Component {
     return (
       <div className="intro-section-container">
         <div className="vertical-center">
-          <div className="p-grid p-justify-center p-align-center">
+          <div className="p-grid p-justify-center p-align-center intro-content">
             <div className="p-col-12 p-md-10 p-lg-8 p-xl-7 horizontal-center">
               <Typography variant="h2">Roberto Battaglia</Typography>
               <Typography variant="h5" gutterBottom>BACKEND DEVELOPER</Typography>

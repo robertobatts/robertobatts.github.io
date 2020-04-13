@@ -1,6 +1,6 @@
 .skills-section-container {
   min-height: 300px;
-  background-color: rgb(18, 18, 31);
+  background-color: rgb(18, 22, 39);
   margin-top: -120px;
 }
 
@@ -9,10 +9,12 @@
   width: auto;
   max-height: 80px;
   max-width: 150px;
-  padding: 10px;
+  padding: 15px;
   display: inline-block;
 }
 
 .wave-bar {
   width: 100%;
+  height: auto;
+  min-height: 250px;
 }
