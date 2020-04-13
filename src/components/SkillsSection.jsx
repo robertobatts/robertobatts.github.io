@@ -14,10 +14,11 @@ class SkillsSection extends React.Component {
             {this.getBackendLogos()} 
           </div>
           <div className="p-col-12 p-md-4 p-lg-4 p-xl-4 horizontal-center">
-            <Typography variant="h5" gutterBottom>FRONT END</Typography>
+            <Typography variant="h5" gutterBottom>CI/CD AND CLOUD</Typography>
+            {this.getCiCdCloudLogos()}
           </div>
           <div className="p-col-12 p-md-4 p-lg-4 p-xl-4 horizontal-center">
-            <Typography variant="h5" gutterBottom>OTHER</Typography>
+            <Typography variant="h5" gutterBottom>OTHER TOOLS</Typography>
             {this.getOtherLogos()}
           </div>
         </div>
@@ -30,16 +31,24 @@ class SkillsSection extends React.Component {
     return this.getLogos(["java", "mongodb", "spring-framework", "golang", "apache-kafka", "maven", "sql-generic", "ibm-mq"])
   }
 
+  getCiCdCloudLogos() {
+    return this.getLogos(["jenkins", "aws"])
+  }
+
   getOtherLogos() {
-    return this.getLogos(["aws", "jenkins", "git", "react"])
+    return this.getLogos(["git", "react"])
   }
 
   getLogos(logoNames) {
     let logos = []
     logoNames.forEach(logoName => {
-      logos.push(<img className="skill-logo-sm" src={process.env.PUBLIC_URL + '/logos/' + logoName + '.svg'} />)
+      logos.push(
+        <div className="p-col-12 p-md-6 p-lg-6 p-xl-6 horizontal-center">
+          <img className="skill-logo-sm" src={process.env.PUBLIC_URL + '/logos/' + logoName + '.svg'} />
+        </div>
+      )
     })
-    return logos
+    return <div className="p-grid p-justify-center">{logos}</div>
   }
 }
 
