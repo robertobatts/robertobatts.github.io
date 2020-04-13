@@ -31,7 +31,7 @@ class SkillsSection extends React.Component {
   }
 
   getOtherLogos() {
-    return this.getLogos(["aws", "jenkins", "git"])
+    return this.getLogos(["aws", "jenkins", "git", "react"])
   }
 
   getLogos(logoNames) {
