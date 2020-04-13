@@ -7,18 +7,18 @@ class SkillsSection extends React.Component {
     return (
       <>
       <object className="wave-bar" data={process.env.PUBLIC_URL + '/wave-bar-1.svg'} type=""/>
-      <div className="skills-section-container">
+      <div id="skills" className="skills-section-container">
         <div className="p-grid skills-section-grid p-justify-center">
           <div className="p-col-12 p-md-4 p-lg-4 p-xl-4 horizontal-center">
-            <Typography variant="h5" gutterBottom>BACK END</Typography>
+            <Typography style={{'height': '64px'}} variant="h5" gutterBottom>BACK END</Typography>
             {this.getBackendLogos()} 
           </div>
           <div className="p-col-12 p-md-4 p-lg-4 p-xl-4 horizontal-center">
-            <Typography variant="h5" gutterBottom>CI/CD AND CLOUD</Typography>
+            <Typography style={{'height': '64px'}} variant="h5" gutterBottom>CI/CD AND CLOUD</Typography>
             {this.getCiCdCloudLogos()}
           </div>
           <div className="p-col-12 p-md-4 p-lg-4 p-xl-4 horizontal-center">
-            <Typography variant="h5" gutterBottom>OTHER TOOLS</Typography>
+            <Typography style={{'height': '64px'}} variant="h5" gutterBottom>OTHER TOOLS</Typography>
             {this.getOtherLogos()}
           </div>
         </div>
@@ -32,7 +32,7 @@ class SkillsSection extends React.Component {
   }
 
   getCiCdCloudLogos() {
-    return this.getLogos(["jenkins", "aws"])
+    return this.getLogos(["jenkins", "jfrog-artifactory", "aws"])
   }
 
   getOtherLogos() {
@@ -43,7 +43,7 @@ class SkillsSection extends React.Component {
     let logos = []
     logoNames.forEach(logoName => {
       logos.push(
-        <div className="p-col-fixed p-md-6 p-lg-6 p-xl-4 horizontal-center">
+        <div className="p-col-3 p-md-6 p-lg-6 p-xl-4 horizontal-center">
           <img className="skill-logo-sm" alt={logoName} src={process.env.PUBLIC_URL + '/logos/' + logoName + '.svg'} />
         </div>
       )

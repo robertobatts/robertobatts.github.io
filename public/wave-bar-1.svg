@@ -7,13 +7,13 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="1440px"
-   height="370px"
-   viewBox="0 0 1440 370"
+   width="1447.0072"
+   height="275.79587"
+   viewBox="0 0 1447.0072 275.79587"
    version="1.1"
    id="svg14"
-   sodipodi:docname="header-2-fg.svg"
-   inkscape:version="0.92.1 r15371">
+   sodipodi:docname="wave-bar-1.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
   <metadata
      id="metadata18">
     <rdf:RDF>
@@ -39,9 +39,9 @@
      inkscape:window-height="1001"
      id="namedview16"
      showgrid="false"
-     inkscape:zoom="0.94166666"
-     inkscape:cx="982.15795"
-     inkscape:cy="295.69711"
+     inkscape:zoom="2.6634355"
+     inkscape:cx="87.388231"
+     inkscape:cy="132.92144"
      inkscape:window-x="-9"
      inkscape:window-y="-9"
      inkscape:window-maximized="1"
@@ -55,7 +55,7 @@
      id="defs6" />
   <g
      id="Page-1"
-     transform="matrix(-1,0,0,1,1441,0)"
+     transform="matrix(-1,0,0,0.82679187,1443.2527,-30.492581)"
      style="fill:none;fill-rule:evenodd;stroke:none;stroke-width:1">
     <g
        id="for-respondents"
@@ -64,9 +64,9 @@
          id="Group-11"
          transform="translate(0,489)">
         <path
-           d="M 0,154.75019 C 60,102.69842 123.40389,87.840077 237.23437,87.840077 351.06486,87.840077 457,156.40837 612,156.40837 c 155,0 354.05495,-111.353779 587.9964,-111.353779 99.957,0 199.6719,36.737422 237,55.852449 0,0 3.3369,59.66126 4.0036,269.09296 H 0 Z"
+           d="M -3.7545493,166.55706 C 56.245451,114.50529 130.16208,111.45383 246.24529,128.71003 c 112.98036,16.79495 196.9494,52.10229 351.9494,52.10229 155,0 362.60389,-143.931719 596.54531,-143.931719 99.957,0 214.3074,46.037777 251.6355,65.152799 0,0 -1.7893,61.408 -1.1228,270.8397 L -4,372.41899 Z"
            id="path9"
-           style="fill:rgb(18, 22, 39);fill-opacity:1"
+           style="fill:#121627;fill-opacity:1"
            inkscape:connector-curvature="0"
            sodipodi:nodetypes="cssscccc" />
       </g>
