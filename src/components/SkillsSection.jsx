@@ -8,7 +8,7 @@ class SkillsSection extends React.Component {
       <>
       <object className="wave-bar" data={process.env.PUBLIC_URL + '/wave-bar-1.svg'} type=""/>
       <div className="skills-section-container">
-        <div className="p-grid p-justify-center">
+        <div className="p-grid skills-section-grid p-justify-center">
           <div className="p-col-12 p-md-4 p-lg-4 p-xl-4 horizontal-center">
             <Typography variant="h5" gutterBottom>BACK END</Typography>
             {this.getBackendLogos()} 
@@ -43,8 +43,8 @@ class SkillsSection extends React.Component {
     let logos = []
     logoNames.forEach(logoName => {
       logos.push(
-        <div className="p-col-12 p-md-6 p-lg-6 p-xl-6 horizontal-center">
-          <img className="skill-logo-sm" src={process.env.PUBLIC_URL + '/logos/' + logoName + '.svg'} />
+        <div className="p-col-fixed p-md-6 p-lg-6 p-xl-4 horizontal-center">
+          <img className="skill-logo-sm" alt={logoName} src={process.env.PUBLIC_URL + '/logos/' + logoName + '.svg'} />
         </div>
       )
     })

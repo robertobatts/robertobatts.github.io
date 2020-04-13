@@ -5,7 +5,7 @@ class TopBar extends React.Component {
   render() {
     return (
       <div className="topbar-container vertical-center">
-        <div className="p-grid">
+        <div className="p-grid topbar-grid">
           <div className="p-col-fixed">
             <a href="#home">Home</a>
           </div>
