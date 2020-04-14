@@ -8,10 +8,14 @@
   margin: 0em;
   padding: 10px 30px;
   user-select: none;
+  transition-timing-function: ease-in;
+  transition: 0.2s;
 }
 
 .button:active {
   opacity: 0.8;
   transform: translate(1px, 1px);
   box-shadow: inset 2px 3px 0 rgba(0,0,0,.4);
+  transition-timing-function: ease-out;
+  transition: 0.2s;
 }
