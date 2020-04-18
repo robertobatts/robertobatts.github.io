@@ -1,0 +1,22 @@
+.footer-container {
+  background-color: rgb(146, 146, 148);
+}
+
+.wave-footer {
+  width: 100%;
+  margin-top: -10vh;
+  margin-bottom: -5px;
+}
+
+.social-logo-sm {
+  width: 35px;
+  height: auto;
+  padding: 10px;
+  filter: opacity(0.5);
+  transition: all .2s ease-in-out;
+}
+
+.social-logo-sm:hover {
+  filter: none;
+  transform: scale(1.2);
+}

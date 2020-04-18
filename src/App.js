@@ -3,6 +3,7 @@ import './App.css';
 import IntroSection from './components/IntroSection'
 import TopBar from './components/TopBar'
 import SkillsSection from './components/SkillsSection'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <TopBar/>
       <IntroSection/>
       <SkillsSection/>
+      <Footer/>
     </>
   );
 }
