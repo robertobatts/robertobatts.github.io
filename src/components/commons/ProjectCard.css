@@ -1,10 +1,11 @@
 .project-card-container {
   margin: 10px;
-  height: 300px;
-  width: 300px;
+  height: 250px;
+  width: 250px;
   border: solid 4px #000;
   position: relative;
   background-color: black;
+  display: inline-block;
 }
 
 .project-card-background {
@@ -13,22 +14,25 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  opacity: 0.5; 
-}
-
-.project-card-background:hover {
-  opacity: 0.57;
+  opacity: 0.3; 
 }
 
 .project-card-wrapper {
   position: absolute;
   top: 0;
   width: 100%;
+  height: 100%;
 }
 
 .project-card-content {
   position: relative;
   margin: 10px;
+  height: 100%;
+}
+
+.project-card-description {
+  min-height: 120px;
+  padding: 5px 0px;
 }
 
 .project-card-link-section {
