@@ -1,0 +1,36 @@
+.project-card-container {
+  margin: 10px;
+  height: 300px;
+  width: 300px;
+  border: solid 4px #000;
+  position: relative;
+  background-color: black;
+}
+
+.project-card-background {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.5; 
+}
+
+.project-card-background:hover {
+  opacity: 0.57;
+}
+
+.project-card-wrapper {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.project-card-content {
+  position: relative;
+  margin: 10px;
+}
+
+.project-card-link-section {
+  margin: 10px;
+}
