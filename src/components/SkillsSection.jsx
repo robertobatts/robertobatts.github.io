@@ -6,23 +6,24 @@ class SkillsSection extends React.Component {
   render() {
     return (
       <>
-      <object className="wave-bar" data={process.env.PUBLIC_URL + '/wave-bar-1.svg'} type=""/>
-      <div id="skills" className="skills-section-container">
-        <div className="p-grid skills-section-grid p-justify-center">
-          <div className="p-col-12 p-md-4 p-lg-4 p-xl-4 horizontal-center">
-            <Typography style={{'height': '64px'}} variant="h5" gutterBottom>BACK END</Typography>
-            {this.getBackendLogos()} 
-          </div>
-          <div className="p-col-12 p-md-4 p-lg-4 p-xl-4 horizontal-center">
-            <Typography style={{'height': '64px'}} variant="h5" gutterBottom>CI/CD AND CLOUD</Typography>
-            {this.getCiCdCloudLogos()}
-          </div>
-          <div className="p-col-12 p-md-4 p-lg-4 p-xl-4 horizontal-center">
-            <Typography style={{'height': '64px'}} variant="h5" gutterBottom>OTHER TOOLS</Typography>
-            {this.getOtherLogos()}
+        <object className="wave-bar" data={process.env.PUBLIC_URL + '/wave-bar-1.svg'} type="" />
+        <div id="skills" className="skills-section-container">
+          <div className="p-grid skills-section-grid p-justify-center">
+            <div className="p-col-12 p-md-4 p-lg-4 p-xl-4 horizontal-center">
+              <Typography style={{ 'height': '64px' }} variant="h5" gutterBottom>BACK END</Typography>
+              {this.getBackendLogos()}
+            </div>
+            <div className="p-col-12 p-md-4 p-lg-4 p-xl-4 horizontal-center">
+              <Typography style={{ 'height': '64px' }} variant="h5" gutterBottom>CI/CD AND CLOUD</Typography>
+              {this.getCiCdCloudLogos()}
+            </div>
+            <div className="p-col-12 p-md-4 p-lg-4 p-xl-4 horizontal-center">
+              <Typography style={{ 'height': '64px' }} variant="h5" gutterBottom>OTHER TOOLS</Typography>
+              {this.getOtherLogos()}
+            </div>
           </div>
         </div>
-      </div>
+        <object className="wave-bar" data={process.env.PUBLIC_URL + '/wave-bar-2.svg'} type="" />
       </>
     );
   }

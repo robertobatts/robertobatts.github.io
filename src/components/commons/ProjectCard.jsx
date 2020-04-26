@@ -6,7 +6,7 @@ import './ProjectCard.css'
 class ProjectCard extends Component {
   render() {
     return (
-      <div className="project-card-container">
+      <div className="project-card-container flat-shadow-in-out">
         <div className="project-card-background" style={{ "backgroundImage": this.props.imageSrc }} />
         <div className="project-card-wrapper vertical-center">
           <div className="project-card-content horizontal-center">

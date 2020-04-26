@@ -1,10 +1,11 @@
 .skills-section-container {
   min-height: 300px;
   background-color: rgb(18, 22, 39);
+  margin-bottom: -5px;
 }
 
 .skills-section-grid {
-  margin: 0px 7vw;
+  margin: 0px 7vw !important;
 }
 
 .skill-logo-sm {
