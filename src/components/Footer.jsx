@@ -28,7 +28,7 @@ class Footer extends Component {
     let logos = []
     Object.keys(socialLinks).forEach(logoName => {
       logos.push(
-        <a href={socialLinks[logoName]} target="_blank" rel="noopener noreferrer">
+        <a key={logoName} href={socialLinks[logoName]} target="_blank" rel="noopener noreferrer">
           <img className="social-logo-sm" alt={logoName} src={process.env.PUBLIC_URL + '/logos/' + logoName + '.svg'} />
         </a>
       )

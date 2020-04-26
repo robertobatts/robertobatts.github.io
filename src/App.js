@@ -3,6 +3,7 @@ import './App.css';
 import IntroSection from './components/IntroSection'
 import TopBar from './components/TopBar'
 import SkillsSection from './components/SkillsSection'
+import ProjectsSection from './components/ProjectsSection'
 import Footer from './components/Footer'
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <TopBar/>
       <IntroSection/>
       <SkillsSection/>
+      <ProjectsSection/>
       <Footer/>
     </>
   );

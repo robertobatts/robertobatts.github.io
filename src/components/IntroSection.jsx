@@ -2,7 +2,6 @@ import React from 'react'
 import Button from './commons/Button'
 import Typography from '@material-ui/core/Typography'
 import './IntroSection.css'
-import "primeflex/primeflex.css"
 
 class IntroSection extends React.Component {
   render() {

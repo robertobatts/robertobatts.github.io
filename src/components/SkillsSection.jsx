@@ -43,7 +43,7 @@ class SkillsSection extends React.Component {
     let logos = []
     logoNames.forEach(logoName => {
       logos.push(
-        <div className="p-col-6 p-sm-3 p-md-6 p-lg-6 p-xl-4 horizontal-center">
+        <div key={logoName} className="p-col-6 p-sm-3 p-md-6 p-lg-6 p-xl-4 horizontal-center">
           <img className="skill-logo-sm" alt={logoName} src={process.env.PUBLIC_URL + '/logos/' + logoName + '.svg'} />
         </div>
       )

@@ -41,5 +41,10 @@ code {
 }
 
 .MuiTypography-h5 {
-  text-shadow: 1px 1px 1px rgb(29, 161, 242);
+  text-shadow: 1px 
+  1px 1px rgb(29, 161, 242);
+}
+
+.p-grid {
+  max-width: 100%;
 }
