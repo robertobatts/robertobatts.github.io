@@ -6,7 +6,11 @@ class SkillsSection extends React.Component {
   render() {
     return (
       <>
-        <object className="wave-bar" data={process.env.PUBLIC_URL + '/wave-bar-1.svg'} type="" />
+        <div className="wave-bar-wrapper">
+          <div className="wave-bar-inner">
+            <img className="wave-bar" src={process.env.PUBLIC_URL + '/wave-bar-1.svg'} alt="wave-bar-1" />
+          </div>
+        </div>
         <div id="skills" className="skills-section-container">
           <div className="p-grid skills-section-grid p-justify-center">
             <div className="p-col-12 p-md-4 p-lg-4 p-xl-4 horizontal-center">
@@ -23,7 +27,11 @@ class SkillsSection extends React.Component {
             </div>
           </div>
         </div>
-        <object className="wave-bar" data={process.env.PUBLIC_URL + '/wave-bar-2.svg'} type="" />
+        <div className="wave-bar-wrapper">
+          <div className="wave-bar-inner">
+            <img className="wave-bar" src={process.env.PUBLIC_URL + '/wave-bar-2.svg'} alt="wave-bar-2" />
+          </div>
+        </div>
       </>
     );
   }

@@ -9,7 +9,7 @@ import Footer from './components/Footer'
 function App() {
   return (
     <>
-      <TopBar/>
+      {/*<TopBar/>*/}
       <IntroSection/>
       <SkillsSection/>
       <ProjectsSection/>

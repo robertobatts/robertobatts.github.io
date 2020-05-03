@@ -13,7 +13,11 @@ class Footer extends Component {
   render() {
     return (
       <div>
-        <object className="wave-footer" data={process.env.PUBLIC_URL + '/wave-footer.svg'} type="" />
+        <div className="wave-footer-wrapper">
+          <div className="wave-footer-inner">
+            <img className="wave-footer" src={process.env.PUBLIC_URL + '/wave-footer.svg'} alt="wave-footer" />
+          </div>
+        </div>
         <div className="footer-container">
           <div className="horizontal-center">
             <Typography variant="h5">Contact me</Typography>

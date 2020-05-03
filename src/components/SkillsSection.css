@@ -1,7 +1,7 @@
 .skills-section-container {
   min-height: 300px;
   background-color: rgb(18, 22, 39);
-  margin-bottom: -5px;
+  margin: -5px 0px;
 }
 
 .skills-section-grid {
@@ -16,7 +16,21 @@
   padding: 10px;
 }
 
+.wave-bar-wrapper {
+  height: 15vw;
+  max-height: 120px;
+  position: relative;
+}
+
+.wave-bar-inner {
+  position: absolute;
+  left:0;
+  top:0;
+  right:0;
+  bottom:0;
+}
+
 .wave-bar {
   width: 100%;
-  margin-bottom: -8vw;
+  height: 100%;
 }

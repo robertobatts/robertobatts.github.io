@@ -2,10 +2,24 @@
   background-color: rgb(146, 146, 148);
 }
 
+.wave-footer-wrapper {
+  height: 5vw;
+  max-height: 100px;
+  position: relative;
+  margin-bottom: -5px;
+}
+
+.wave-footer-inner {
+  position: absolute;
+  left:0;
+  top:0;
+  right:0;
+  bottom:0;
+}
+
 .wave-footer {
   width: 100%;
-  margin-top: -10vh;
-  margin-bottom: -5px;
+  height: 100%;
 }
 
 .social-logo-sm {
