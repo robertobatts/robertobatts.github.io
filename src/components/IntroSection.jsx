@@ -10,7 +10,10 @@ class IntroSection extends React.Component {
         <div className="intro-section-inner">
           <Typography variant="h2">Roberto Battaglia</Typography>
           <Typography variant="h5" gutterBottom>BACKEND DEVELOPER</Typography>
-          <Button content={<Typography variant="button">Open Resume</Typography>} color={'#1da1f2'} />
+          <Button 
+            content={<Typography variant="button">Open Resume</Typography>} color={'#1da1f2'}
+            link={process.env.PUBLIC_URL + "/resume.pdf"} 
+          />
         </div>
       </div>
     )
