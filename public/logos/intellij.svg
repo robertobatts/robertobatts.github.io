@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="101" height="97.33333333333337" version="1.1" style=""><rect id="backgroundrect" width="100%" height="100%" x="0" y="0" fill="none" stroke="none" class="" style=""/>
+    <!-- Generator: Sketch 41 (35326) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_IntelliJIDEA</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="50%" x2="99.7986577%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#F97A12" offset="26%"/>
+            <stop stop-color="#B07B58" offset="46%"/>
+            <stop stop-color="#577BAE" offset="72%"/>
+            <stop stop-color="#1E7CE5" offset="91%"/>
+            <stop stop-color="#087CFA" offset="100%"/>
+        </linearGradient>
+        <linearGradient x1="0.344827586%" y1="34.5396825%" x2="121.182266%" y2="77.6190476%" id="linearGradient-2">
+            <stop stop-color="#F97A12" offset="0%"/>
+            <stop stop-color="#CB7A3E" offset="7%"/>
+            <stop stop-color="#9E7B6A" offset="15%"/>
+            <stop stop-color="#757B91" offset="24%"/>
+            <stop stop-color="#537BB1" offset="33%"/>
+            <stop stop-color="#387CCC" offset="43%"/>
+            <stop stop-color="#237CE0" offset="54%"/>
+            <stop stop-color="#147CEF" offset="66%"/>
+            <stop stop-color="#0B7CF7" offset="79%"/>
+            <stop stop-color="#087CFA" offset="100%"/>
+        </linearGradient>
+        <linearGradient x1="78.1690141%" y1="97.7493606%" x2="30.1056338%" y2="-6.62404092%" id="linearGradient-3">
+            <stop stop-color="#FE315D" offset="0%"/>
+            <stop stop-color="#CB417E" offset="8%"/>
+            <stop stop-color="#9E4E9B" offset="16%"/>
+            <stop stop-color="#755BB4" offset="25%"/>
+            <stop stop-color="#5365CA" offset="34%"/>
+            <stop stop-color="#386DDB" offset="44%"/>
+            <stop stop-color="#2374E9" offset="54%"/>
+            <stop stop-color="#1478F3" offset="66%"/>
+            <stop stop-color="#0B7BF8" offset="79%"/>
+            <stop stop-color="#087CFA" offset="100%"/>
+        </linearGradient>
+        <linearGradient x1="20%" y1="24.0865385%" x2="103.421589%" y2="132.676282%" id="linearGradient-4">
+            <stop stop-color="#FE315D" offset="0%"/>
+            <stop stop-color="#F63462" offset="4%"/>
+            <stop stop-color="#DF3A71" offset="10%"/>
+            <stop stop-color="#C24383" offset="17%"/>
+            <stop stop-color="#AD4A91" offset="29%"/>
+            <stop stop-color="#755BB4" offset="55%"/>
+            <stop stop-color="#1D76ED" offset="92%"/>
+            <stop stop-color="#087CFA" offset="100%"/>
+        </linearGradient>
+    </defs>
+    
+<g class="currentLayer" style=""><title>Layer 1</title><g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" class="">
+        <g id="icon_IntelliJIDEA">
+            <polygon id="Shape" fill="url(#linearGradient-1)" points="34.86665725708008,55.23334378004074 19.366666793823242,43.03334301710129 27.066659927368164,28.73332852125168 49.16669845581055,37.333342254161835 "/>
+            <polygon id="Shape" fill="url(#linearGradient-2)" points="82.66659545898438,22.43332928419113 81.46659851074219,59.43334072828293 56.866703033447266,69.33331555128098 42.06667709350586,59.73334378004074 63.66670227050781,37.333342254161835 54.266700744628906,16.533335387706757 62.766700744628906,6.333333194255829 "/>
+            <polygon id="Shape" fill="url(#linearGradient-3)" points="82.66659545898438,22.43332928419113 63.16670227050781,45.43334072828293 54.266700744628906,16.533335387706757 62.766700744628906,6.333333194255829 "/>
+            <polygon id="Shape" fill="url(#linearGradient-4)" points="49.466697692871094,58.43334072828293 23.866662979125977,67.73332470655441 27.966659545898438,53.333342254161835 33.26665496826172,35.53333920240402 18.66666603088379,30.633328139781952 27.966659545898438,5.333333194255829 47.96669387817383,7.733332812786102 67.76667785644531,30.333328902721405 "/>
+            <g id="Group">
+                <rect id="Rectangle-path" fill="#000000" x="30.666667222976685" y="17.333333492279053" width="40" height="40"/>
+                <g fill="#FFFFFF" id="svg_1">
+                    <rect id="Rectangle-path" x="34.46666723489761" y="49.83333349227905" width="15" height="2.5" transform=""/>
+                    <polygon id="Shape" points="45.16668701171875,25.533329665660858 45.16668701171875,22.533329665660858 36.9666633605957,22.533329665660858 36.9666633605957,25.533329665660858 39.26667022705078,25.533329665660858 39.26667022705078,36.03333920240402 36.9666633605957,36.03333920240402 36.9666633605957,39.13334149122238 45.16668701171875,39.13334149122238 45.16668701171875,36.03333920240402 42.86668014526367,36.03333920240402 42.86668014526367,25.533329665660858 "/>
+                    <path d="M53.166667222976685,39.33333349227905 C52.025005022976686,39.38482949227905 50.889108022976686,39.14388159227905 49.86666722297669,38.63333349227905 C49.030158622976685,38.17183969227905 48.28466782297669,37.56189259227905 47.666667222976685,36.83333349227905 L49.96666722297668,34.23333349227905 C50.38198522297668,34.68961599227905 50.85223352297669,35.09268599227905 51.36666722297669,35.433333492279054 C51.850699722976685,35.71711439227905 52.40603582297668,35.85594839227905 52.96666722297668,35.83333349227905 C53.58319892297669,35.88045329227906 54.18284022297668,35.618110192279055 54.56666722297668,35.13333349227905 C55.02983412297668,34.53681899227905 55.24478232297669,33.78449999227905 55.166667222976685,33.033333492279056 L55.166667222976685,22.333333492279053 L58.86666722297669,22.333333492279053 L58.86666722297669,33.13333349227905 C58.904614422976685,34.017817392279056 58.768716122976684,34.90115669227905 58.46666722297668,35.73333349227906 C58.202811922976686,36.577591392279054 57.71971512297668,37.33674359227905 57.06666722297669,37.933333492279054 C55.933354422976684,38.774725092279056 54.576358022976684,39.26185199227905 53.166667222976685,39.33333349227905 " id="Shape" transform=""/>
+                </g>
+            </g>
+        </g>
+    </g><foreignObject fill="none" stroke-dashoffset="" fill-rule="evenodd" font-size="20" font-family="Arial, Helvetica, sans-serif" letter-spacing="0" word-spacing="0" marker-start="" marker-mid="" marker-end="" id="svg_2" x="20.000001192092896" y="76.66666680574417" width="172" height="27" style="color: rgb(182, 182, 182);" class="selected" fill-opacity="1"><p xmlns="http://www.w3.org/1999/xhtml" style="border: none;outline: none;font-size: inherit;line-height: 1em;padding:0;margin:0;">IntelliJ</p></foreignObject></g></svg>

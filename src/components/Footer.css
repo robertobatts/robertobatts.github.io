@@ -4,6 +4,7 @@
 
 .wave-footer-wrapper {
   height: 5vw;
+  min-height: 40px;
   max-height: 100px;
   position: relative;
   margin-bottom: -5px;

@@ -2,6 +2,7 @@
   min-height: 300px;
   background-color: rgb(18, 22, 39);
   margin: -5px 0px;
+  padding: 50px 0px;
 }
 
 .skills-section-grid {
@@ -18,6 +19,7 @@
 
 .wave-bar-wrapper {
   height: 15vw;
+  min-height: 60px;
   max-height: 120px;
   position: relative;
 }

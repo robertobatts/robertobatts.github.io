@@ -41,11 +41,11 @@ class SkillsSection extends React.Component {
   }
 
   getCiCdCloudLogos() {
-    return this.getLogos(["jenkins", "jfrog-artifactory", "aws"])
+    return this.getLogos(["jenkins", "jfrog-artifactory", "aws", "aws-ec2", "aws-lambda"])
   }
 
   getOtherLogos() {
-    return this.getLogos(["git", "react"])
+    return this.getLogos(["git", "react", "bash", "intellij", "vs-code"])
   }
 
   getLogos(logoNames) {

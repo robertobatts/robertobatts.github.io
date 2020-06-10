@@ -1,7 +1,15 @@
 .intro-section-container {
-  min-height: 40vh;
+  position: relative;
+  min-height: 100vh;
   padding-top: 50px;
-  margin-bottom: -170px;
+  margin-bottom: -150px;
+}
+
+.intro-section-inner {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .intro-content {

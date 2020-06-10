@@ -11,6 +11,7 @@
   transition-timing-function: ease-in;
   transition: 0.1s;
   margin: 5px;
+  display: inline-block;
 }
 
 .button:active {
