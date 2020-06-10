@@ -8,7 +8,7 @@ class ProjectsSection extends Component {
     return (
       <>
         <div id="projects" className="projects-section-container horizontal-center">
-          <Typography variant="h5">PROJECTS</Typography>
+          <Typography variant="h5" style={{paddingBottom: "10px"}}>PROJECTS</Typography>
           <ProjectCard 
             title="golexa"
             description="An SDK to develop skills for Alexa"
