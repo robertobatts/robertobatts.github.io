@@ -1,3 +1,10 @@
+.intro-absolute-wrapper {
+  position: absolute;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+}
+
 .intro-section-container {
   position: relative;
   min-height: 100vh;
@@ -6,13 +13,18 @@
 }
 
 .intro-section-inner {
-  position: absolute;
-  top: 35%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  padding-top: 20vh; 
+  position: relative;
+  margin: auto;
 }
 
 .intro-content {
   max-width: 100%;
   z-index: 100;
+}
+
+.scroll-down-arrow-container {
+  width: 100%;
+  bottom: 200px;
+  position: absolute;
 }

@@ -6,12 +6,12 @@ class SkillsSection extends React.Component {
   render() {
     return (
       <>
-        <div className="wave-bar-wrapper">
+        <div id="skills" className="wave-bar-wrapper">
           <div className="wave-bar-inner">
             <img className="wave-bar" src={process.env.PUBLIC_URL + '/wave-bar-1.svg'} alt="wave-bar-1" />
           </div>
         </div>
-        <div id="skills" className="skills-section-container">
+        <div className="skills-section-container">
           <div className="p-grid skills-section-grid p-justify-center">
             <div className="p-col-12 p-md-4 p-lg-4 p-xl-4 horizontal-center">
               <Typography style={{ 'height': '64px' }} variant="h5" gutterBottom>BACK END</Typography>
