@@ -24,8 +24,10 @@ jobs:
     - name: Build
       run: npm run build
     - name: Git config
-      run: git config user.name "robertobatts"
+      run: |
+        git config user.email "battaroberto@gmail.com"
+        git config user.name "robertobatts"
     - name: Deploy
       run: npm run deploy
-      with:
+      env:
         github_token: ${{ secrets.GITHUB_TOKEN }}
