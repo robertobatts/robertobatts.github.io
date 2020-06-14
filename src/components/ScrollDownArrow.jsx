@@ -1,15 +1,21 @@
 import React, { Component } from 'react'
+import { Link } from "react-scroll"
 import './ScrollDownArrow.css'
 
 class ScrollDownArrow extends Component {
   render() {
     return (
       <div class="arrow-container">
-        <a class="arrow-inner vertical-center" href={this.props.goto}>
+        <Link
+          activeClass="active"
+          to={this.props.scrollto}
+          smooth={true}
+          duration={500}
+          class="arrow-inner vertical-center">
           <div class="bounce">
-            <div class="arrow down"/>
+            <div class="arrow down" />
           </div>
-        </a>
+        </Link>
       </div>
     )
   }

@@ -18,7 +18,7 @@ class IntroSection extends React.Component {
             />
           </div>
           <div class="scroll-down-arrow-container">
-            <ScrollDownArrow goto="#skills" />
+            <ScrollDownArrow scrollto="skills" />
           </div>
         </div>
       </div>
