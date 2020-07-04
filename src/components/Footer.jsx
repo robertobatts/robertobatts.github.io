@@ -4,7 +4,7 @@ import './Footer.css'
 
 const socialLinks = {
   "linkedin": "https://www.linkedin.com/in/robertobatts",
-  "github": "https://github.com/robertobatts",
+  "gitHub": "https://github.com/robertobatts",
   "stackoverflow": "https://stackoverflow.com/users/10342150/robertobatts",
   "gmail": "mailto:battaroberto@gmail.com?Subject=I want to hire you"
 }
@@ -15,7 +15,7 @@ class Footer extends Component {
       <div>
         <div className="wave-footer-wrapper">
           <div className="wave-footer-inner">
-            <img className="wave-footer" src={process.env.PUBLIC_URL + '/wave-footer.svg'} alt="wave-footer" />
+            <img className="wave-footer" src={process.env.PUBLIC_URL + '/wavefooter.svg'} alt="wave-footer" />
           </div>
         </div>
         <div className="footer-container">

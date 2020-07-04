@@ -8,7 +8,7 @@ class SkillsSection extends React.Component {
       <>
         <div id="skills" className="wave-bar-wrapper">
           <div className="wave-bar-inner">
-            <img className="wave-bar" src={process.env.PUBLIC_URL + '/wave-bar-1.svg'} alt="wave-bar-1" />
+            <img className="wave-bar" src={process.env.PUBLIC_URL + '/wavebar-1.svg'} alt="wave-bar-1" />
           </div>
         </div>
         <div className="skills-section-container">
@@ -29,7 +29,7 @@ class SkillsSection extends React.Component {
         </div>
         <div className="wave-bar-wrapper">
           <div className="wave-bar-inner">
-            <img className="wave-bar" src={process.env.PUBLIC_URL + '/wave-bar-2.svg'} alt="wave-bar-2" />
+            <img className="wave-bar" src={process.env.PUBLIC_URL + '/wavebar-2.svg'} alt="wave-bar-2" />
           </div>
         </div>
       </>
