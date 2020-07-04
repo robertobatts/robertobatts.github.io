@@ -12,6 +12,11 @@ code {
     monospace;
 }
 
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
 .flat-shadow-in {
 	box-shadow: inset -2px -3px 0 rgba(0,0,0,.4);
 }
