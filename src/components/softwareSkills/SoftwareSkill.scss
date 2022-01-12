@@ -29,3 +29,6 @@
 .software-skill-inline > i:hover ~ p {
   color: $skillsColor;
 }
+.icon-go:before {
+  margin-right: -10px;
+}

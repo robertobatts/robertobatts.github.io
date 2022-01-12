@@ -16,8 +16,7 @@ const greeting = {
   subTitle: emoji(
     "A passionate Software Developer 🚀 having an experience of building web services with Java and Spring"
   ),
-  resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+  resumeLink: process.env.PUBLIC_URL + "/resume.pdf", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -36,16 +35,16 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "Skills",
+  subTitle: "",
   skills: [
-    emoji(
+    /*emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
     ),
     emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
       "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+    )*/
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -69,6 +68,26 @@ https://fontawesome.com/icons?d=gallery */
       fontClassname: "icon-redis"
     },
     {
+      skillName: "Kafka",
+      fontClassname: "fas fa-stream"
+    },
+    {
+      skillName: "Maven",
+      fontClassname: "icon-apache"
+    },
+    {
+      skillName: "MySQL",
+      fontClassname: "icon-mysql"
+    },
+    {
+      skillName: "Microservices",
+      fontClassname: "fas fa-cloud"
+    },
+    {
+      skillName: "Go",
+      fontClassname: "icon-go"
+    },
+    {
       skillName: "JavaScript",
       fontClassname: "fab fa-js"
     },
@@ -77,24 +96,20 @@ https://fontawesome.com/icons?d=gallery */
       fontClassname: "fab fa-react"
     },
     {
-      skillName: "Maven",
-      fontClassname: "icon-maven"
-    },
-    {
-      skillName: "Kafka",
-      fontClassname: "icon-apache"
-    },
-    {
-      skillName: "MySQL",
-      fontClassname: "icon-mysql"
-    },
-    {
       skillName: "AWS",
       fontClassname: "fab fa-aws"
     },
     {
       skillName: "Docker",
       fontClassname: "fab fa-docker"
+    },
+    {
+      skillName: "Jenkins",
+      fontClassname: "fab fa-jenkins"
+    },
+    {
+      skillName: "Artifactory",
+      fontClassname: "far fa-circle"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -147,7 +162,7 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: false, //Set it to true to show workExperiences Section
   experience: [
     {
       role: "Software Engineer",
@@ -182,7 +197,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
@@ -215,7 +230,7 @@ const bigProjects = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -297,7 +312,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
