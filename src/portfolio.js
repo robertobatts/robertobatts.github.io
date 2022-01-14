@@ -162,32 +162,40 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: false, //Set it to true to show workExperiences Section
+  display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Backend Developer",
+      company: "Playtika",
+      location: "London, UK",
+      companylogo: require("./assets/images/playtikaLogo.png"),
+      date: "Oct 2021 – Now",
+      desc: "Developing microservices for a mobile game with Java, Spring Cloud, Redis, Aerospike"
+    },
+    {
+      role: "Backend Developer",
+      company: "Cogitare",
+      location: "London, UK",
+      companylogo: require("./assets/images/cogitareLogo.png"),
+      date: "Nov 2019 – Oct 2021",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Designed and implemented RESTful services on a web application to monitor and improve London's Rail Network performance (Java 8, Spring Boot, Spring Data, MongoDB)",
+        "Developed asynchronous services in an event-driven application to process data from train black boxes (Apache Kafka)",
+        "Set up a CI/CD environment from scratch (Jenkins, Artifactory)",
+        "Wrote unit and integration tests (Junit, Mockito, Spring Boot Test)"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Software Developer",
+      company: "GFT Technologies",
+      location: "Milan, Italy",
+      companylogo: require("./assets/images/gftLogo.jpg"),
+      date: "Oct 2019 – Oct 2019",
+      descBullets: [
+        "Implemented RESTful web services with MVC approach (Java 8, Spring Boot, MyBatis, DB2 SQL)",
+        "Worked on a real-time data updating system for external services communication that fulfills ACID properties (Java Message Service, Enterprise JavaBeans, IBM MQ)",
+        "Developed UI components (Angular 4)"
+      ]    
     }
   ]
 };

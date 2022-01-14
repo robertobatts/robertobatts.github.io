@@ -9,8 +9,8 @@ export default function WorkExperience() {
   const {isDark} = useContext(StyleContext);
   if (workExperiences.display) {
     return (
-      <div id="experience">
-        <Fade bottom duration={1000} distance="20px">
+      <div id="experience" className="experience">
+        <Fade right duration={1500} distance="200px">
           <div className="experience-container" id="workExperience">
             <div>
               <h1 className="experience-heading">Experiences</h1>
@@ -26,6 +26,7 @@ export default function WorkExperience() {
                         date: card.date,
                         companylogo: card.companylogo,
                         role: card.role,
+                        location: card.location,
                         descBullets: card.descBullets
                       }}
                     />

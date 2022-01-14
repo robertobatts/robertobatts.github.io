@@ -108,12 +108,26 @@
   color: $textColor;
   font-size: 20px;
   margin: 0px;
-  padding-top: 1rem;
+  padding-top: 0.5rem;
+  font-weight: 600;
+}
+
+.experience-text-location {
+  text-align: center;
+  color: $textColor;
+  font-size: 16px;
+  margin: 0px;
+  padding-top: 0.5rem;
   font-weight: 600;
 }
 
 .experience-text-desc {
   text-align: center;
+  font-size: 16px;
+}
+
+.experience-text-desc-bullet {
+  font-size: 16px;
 }
 
 .experience-text-details {
@@ -134,6 +148,9 @@
   .experience-text-date {
     font-size: 18px;
   }
+  .experience-text-location {
+    font-size: 14px;
+  }
   .experience-roundedimg {
     width: 6.5rem;
     height: 6.5rem;
@@ -149,6 +166,9 @@
   }
   .experience-text-date {
     font-size: 18px;
+  }
+  .experience-text-location {
+    font-size: 14px;
   }
   .experience-text-desc {
     font-size: 16px;
