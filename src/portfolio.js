@@ -189,8 +189,13 @@ const workExperiences = {
       role: "Software Developer",
       company: "GFT Technologies",
       location: "Milan, Italy",
+<<<<<<< Updated upstream
       companylogo: require("./assets/images/gftLogo.jpg"),
       date: "Oct 2019 – Oct 2019",
+=======
+      companylogo: require("./assets/images/gftLogo.png"),
+      date: "Oct 2018 – Oct 2019",
+>>>>>>> Stashed changes
       descBullets: [
         "Implemented RESTful web services with MVC approach (Java 8, Spring Boot, MyBatis, DB2 SQL)",
         "Worked on a real-time data updating system for external services communication that fulfills ACID properties (Java Message Service, Enterprise JavaBeans, IBM MQ)",
@@ -204,8 +209,8 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: false // Set false to hide this section, defaults to true
+  showGithubProfile: "false", // Set true or false to show Contact profile using Github, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
