@@ -189,7 +189,7 @@ const workExperiences = {
       role: "Software Developer",
       company: "GFT Technologies",
       location: "Milan, Italy",
-      companylogo: require("./assets/images/gftLogo.jpg"),
+      companylogo: require("./assets/images/gftLogo.png"),
       date: "Oct 2018 – Oct 2019",
       descBullets: [
         "Implemented RESTful web services with MVC approach (Java 8, Spring Boot, MyBatis, DB2 SQL)",
