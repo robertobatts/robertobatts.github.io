@@ -189,13 +189,8 @@ const workExperiences = {
       role: "Software Developer",
       company: "GFT Technologies",
       location: "Milan, Italy",
-<<<<<<< Updated upstream
       companylogo: require("./assets/images/gftLogo.jpg"),
-      date: "Oct 2019 – Oct 2019",
-=======
-      companylogo: require("./assets/images/gftLogo.png"),
       date: "Oct 2018 – Oct 2019",
->>>>>>> Stashed changes
       descBullets: [
         "Implemented RESTful web services with MVC approach (Java 8, Spring Boot, MyBatis, DB2 SQL)",
         "Worked on a real-time data updating system for external services communication that fulfills ACID properties (Java Message Service, Enterprise JavaBeans, IBM MQ)",
