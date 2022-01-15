@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d1ad15044375d1032e50e621bec21c6c",
+    "revision": "3d1bb3974d859734b5afe15c57e97faf",
     "url": "/index.html"
   },
   {
@@ -12,7 +12,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/4.e91a4b36.chunk.css"
   },
   {
-    "revision": "46c0df128ee233ef85c1",
+    "revision": "80ce8c3cbf9b0c4686be",
     "url": "/static/css/main.f5c7d2b0.chunk.css"
   },
   {
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/4.e0c81ec9.chunk.js"
   },
   {
-    "revision": "46c0df128ee233ef85c1",
-    "url": "/static/js/main.beb76544.chunk.js"
+    "revision": "80ce8c3cbf9b0c4686be",
+    "url": "/static/js/main.6ca7270f.chunk.js"
   },
   {
     "revision": "a1ebf094b70980a59ad4",
@@ -58,10 +58,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "db3861ee3e6637e4dcdf805517fb0e87",
     "url": "/static/media/developerActivity.db3861ee.svg"
-  },
-  {
-    "revision": "5768fa93efff10eac440473c3a6e3cb8",
-    "url": "/static/media/gftLogo.5768fa93.jpg"
   },
   {
     "revision": "e79c639294c805688be731921368c8f8",
