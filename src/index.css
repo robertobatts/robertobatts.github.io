@@ -1,55 +1,36 @@
+@font-face {
+  font-family: "Agustina Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Agustina Regular"),
+    url("./assets/fonts/Agustina.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat"),
+    url("./assets/fonts/Montserrat-Regular.ttf") format("woff");
+  font-display: swap;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+html,
+body {
+  scroll-behavior: smooth;
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font: 19px / 23px Montserrat, "Montserrat", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
-a {
-  color: #ffffff;
-  text-decoration: none;
-}
-
-.flat-shadow-in {
-	box-shadow: inset -2px -3px 0 rgba(0,0,0,.4);
-}
-
-.flat-shadow-in-out {
-  box-shadow: inset -2px -3px 0 rgba(0,0,0,.4), 2px 3px 0 rgba(0,0,0,.4)
-}
-
-.vertical-space-8 {
-  padding-top: 4px;
-  padding-bottom: 4px;
-}
-
-.vertical-center {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.horizontal-center {
-  text-align: center;
-  justify-content: center;
-}
-
-.MuiTypography-h2 {
-  text-shadow: 2px 1px 1px rgb(29, 161, 242);
-}
-
-.MuiTypography-h5 {
-  text-shadow: 1px 
-  1px 1px rgb(29, 161, 242);
-}
-
-.p-grid {
-  max-width: 100%;
+/* Media Query */
+@media (max-width: 1380px) {
+  html,
+  body {
+    font-size: 16px;
+    line-height: normal;
+  }
 }
