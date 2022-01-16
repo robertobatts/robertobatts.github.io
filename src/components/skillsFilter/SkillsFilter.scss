@@ -1,0 +1,28 @@
+@import "../../_globalColor";
+
+.skills-filter-wrapper {
+  margin: 1rem;
+  padding: 2px 0px;
+}
+
+.skills-filter {
+  display: inline-block;
+  background-color: $buttonColor;
+  border: solid 1px $buttonColor;
+  color: $textColorDark;
+  font-weight: 700;
+  width: max-content;
+  text-transform: uppercase;
+  border-radius: 6px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.skills-filter-select {
+  padding-top: 2px;
+  cursor: pointer;
+}
+
+.skills-filter-select:hover {
+}

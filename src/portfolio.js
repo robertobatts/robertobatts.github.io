@@ -53,63 +53,93 @@ https://fontawesome.com/icons?d=gallery */
   softwareSkills: [
     {
       skillName: "Java",
-      fontClassname: "fab fa-java"
+      fontClassname: "fab fa-java",
+      level: "Proficient",
+      workExperiences: ["Playtika", "Cogitare", "GFT", "Personal Projects"]
     },
     {
       skillName: "Spring",
-      fontClassname: "icon-spring"
+      fontClassname: "icon-spring",
+      level: "Proficient",
+      workExperiences: ["Playtika", "Cogitare", "GFT", "Personal Projects"]
     },
     {
       skillName: "MongoDB",
-      fontClassname: "icon-mongodb"
+      fontClassname: "icon-mongodb",
+      level: "Proficient",
+      workExperiences: ["Cogitare", "Personal Projects"]
     },
     {
       skillName: "Redis",
-      fontClassname: "icon-redis"
+      fontClassname: "icon-redis",
+      level: "Proficient",
+      workExperiences: ["Playtika", "Personal Projects"]
     },
     {
       skillName: "Kafka",
-      fontClassname: "fas fa-stream"
+      fontClassname: "fas fa-stream",
+      level: "Medium",
+      workExperiences: ["Playtika", "Cogitare"]
     },
     {
       skillName: "Maven",
-      fontClassname: "icon-apache"
+      fontClassname: "icon-apache",
+      level: "Proficient",
+      workExperiences: ["Playtika", "Cogitare", "GFT", "Personal Projects"]
     },
     {
       skillName: "MySQL",
-      fontClassname: "icon-mysql"
+      fontClassname: "icon-mysql",
+      level: "Medium",
+      workExperiences: ["GFT", "Personal Projects"]
     },
     {
       skillName: "Microservices",
-      fontClassname: "fas fa-cloud"
+      fontClassname: "fas fa-cloud",
+      level: "Proficient",
+      workExperiences: ["Playtika", "Personal Projects"]
     },
     {
       skillName: "Go",
-      fontClassname: "icon-go"
+      fontClassname: "icon-go",
+      level: "Beginner",
+      workExperiences: ["Personal Projects"]
     },
     {
       skillName: "JavaScript",
-      fontClassname: "fab fa-js"
+      fontClassname: "fab fa-js",
+      level: "Medium",
+      workExperiences: ["GFT", "Personal Projects"]
     },
     {
       skillName: "React",
-      fontClassname: "fab fa-react"
+      fontClassname: "fab fa-react",
+      level: "Medium",
+      workExperiences: ["Personal Projects"]
     },
     {
       skillName: "AWS",
-      fontClassname: "fab fa-aws"
+      fontClassname: "fab fa-aws",
+      level: "Medium",
+      workExperiences: ["Cogitare", "Personal Projects"]
     },
     {
       skillName: "Docker",
-      fontClassname: "fab fa-docker"
+      fontClassname: "fab fa-docker",
+      level: "Medium",
+      workExperiences: ["Playtika", "Personal Projects"]
     },
     {
       skillName: "Jenkins",
-      fontClassname: "fab fa-jenkins"
+      fontClassname: "fab fa-jenkins",
+      level: "Medium",
+      workExperiences: ["Playtika", "Cogitare"]
     },
     {
       skillName: "Artifactory",
-      fontClassname: "far fa-circle"
+      fontClassname: "far fa-circle",
+      level: "Medium",
+      workExperiences: ["Playtika", "Cogitare"]
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -142,7 +172,7 @@ const educationInfo = {
   ]
 };
 
-// Your top 3 proficient stacks/tech experience
+// Your top 3 Proficient stacks/tech experience
 
 const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
