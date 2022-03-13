@@ -4,7 +4,7 @@
   width: 90%;
   padding: 20px 10px;
   margin: 0px auto;
-  margin-top: 4rem;
+  margin-top: 1rem;
 }
 .greet-main {
   width: 90%;
@@ -36,6 +36,7 @@
 
 .greeting-text {
   font-size: 70px;
+  min-width: 446px;
   line-height: 1.1;
   color: $textColor !important;
 }
@@ -48,6 +49,7 @@
 .greeting-image-div > img {
   max-width: 100%;
   height: auto;
+  max-height: 100%;
 }
 
 .wave-emoji {
@@ -56,6 +58,7 @@
   animation-name: wave;
   display: inline-block;
   transform-origin: 70% 70%;
+  padding-left: 10px;
 }
 
 @keyframes wave {
@@ -98,6 +101,7 @@
   .greeting-text {
     font-size: 30px;
     text-align: center;
+    min-width: none;
   }
   .greeting-text-p {
     font-size: 16px;
@@ -108,11 +112,17 @@
     display: block;
   }
   .greeting-image-div {
-    height: 256px;
+    height: fit-content;
+    text-align: center;
   }
 }
 
 @media (max-width: 320px) {
+  .greeting-text {
+    font-size: 30px;
+    text-align: center;
+    min-width: none;
+  }
   .main {
     width: auto;
   }

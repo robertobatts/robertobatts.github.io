@@ -1,13 +1,13 @@
-import React, { useState } from "react";
+import React, {useState} from "react";
 import "./SkillsFilter.scss";
-import { skillsSection } from "../../portfolio";
 
 export default function SoftwareSkill({ property, setProperty, options, name }) {
+  const [selected, setSelected] = useState(false);
+
+
+
   return (
     <div className="skills-filter-wrapper skills-filter">
-      <div>
-        {name}:
-      </div>
       <select
         className="skills-filter-select skills-filter"
         name={name}
@@ -15,6 +15,7 @@ export default function SoftwareSkill({ property, setProperty, options, name }) 
         onChange={e => setProperty(e.target.value)}
         id={name}
       >
+        <option value={name} disabled selected hidden>{name}</option>
         {options.map(option => {
           return <option value={option}>{option}</option>;
         })}

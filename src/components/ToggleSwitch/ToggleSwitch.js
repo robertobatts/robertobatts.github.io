@@ -17,7 +17,10 @@ const ToggleSwitch = () => {
           setChecked(!isChecked);
         }}
       />
-      <span className="slider round"></span>
+      <span className="slider round">
+        <span className="fas fa-moon moon-icon"/>
+        <span className="fas fa-sun sun-icon"/>
+      </span>
     </label>
   );
 };

@@ -4,34 +4,42 @@ import { skillsSection } from "../../portfolio";
 import SkillsFilter from "../../components/skillsFilter/SkillsFilter";
 
 export default function SoftwareSkill() {
-  const [selectedLevel, setSelectedLevel] = useState("All");
-  const [selectedWorkExperience, setSelectedWorkExperience] = useState("All");
-  return (
-    <div>
-      <div className="software-skills-main-div">
-        <div className="skills-filter-container">
+  const [selectedLevel, setSelectedLevel] = useState("Level");
+  const [selectedWorkExperience, setSelectedWorkExperience] = useState("Work Experience");
+
+  function getSkillsFilter() {
+    return (
+      <div className="skills-filter-container">
           Filter by
           <SkillsFilter
             property={selectedLevel}
             setProperty={setSelectedLevel}
+            onClear={() => setSelectedLevel("Level")}
             name="Level"
-            options={["All", "Proficient", "Medium", "Beginner"]}
+            options={["Proficient", "Medium", "Beginner"]}
           />
           <SkillsFilter
             property={selectedWorkExperience}
             setProperty={setSelectedWorkExperience}
+            onClear={() => setSelectedWorkExperience("Work Experience")}
             name="Work Experience"
-            options={["All", "Playtika", "Cogitare", "GFT", "Personal Projects"]}
+            options={["Playtika", "Cogitare", "GFT", "Personal Projects"]}
           />
         </div>
+    )
+  }
+  
+  return (
+    <div>
+      <div className="software-skills-main-div">
         <ul className="dev-icons">
           {skillsSection.softwareSkills.filter(skill => {
-            if (selectedLevel === "All") {
+            if (selectedLevel === "Level") {
               return true;
             }
             return skill.level === selectedLevel;
           }).filter(skill => {
-            if (selectedWorkExperience === "All") {
+            if (selectedWorkExperience === "Work Experience") {
               return true;
             }
             return skill.workExperiences.includes(selectedWorkExperience);

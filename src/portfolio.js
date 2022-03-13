@@ -13,9 +13,16 @@ const illustration = {
 const greeting = {
   username: "Roberto Battaglia",
   title: "Hi, I'm Roberto",
-  subTitle: emoji(
-    "A passionate Software Developer 🚀 having an experience of building web services with Java and Spring"
-  ),
+  
+  subTitles: [
+    { text: "I'm a Backend Developer", backspace: -1 },
+    { text: "I work with ", backspace: 0 },
+    { text: "Java", backspace: -1 },
+    { text: "Spring", backspace: -1 },
+    { text: "Microservices", backspace: -1 },
+    { text: "MongoDB", backspace: 20 },
+    { text: "I love cutting edge technology", backspace: -1 }
+  ],
   resumeLink: process.env.PUBLIC_URL + "/resume.pdf", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
@@ -175,7 +182,7 @@ const educationInfo = {
 // Your top 3 Proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
     {
       Stack: "Backend",
