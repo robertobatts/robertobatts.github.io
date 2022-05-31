@@ -69,7 +69,7 @@ export default function Greeting() {
                 </Typist>
               </div>
               <span className="wave-emoji">{emoji("👋")}</span>
-              <p
+              <div
                 className={
                   isDark
                     ? "dark-mode greeting-text-p"
@@ -77,7 +77,7 @@ export default function Greeting() {
                 }
               >
                 {getTypist()}
-              </p>
+              </div>
               <SocialMedia />
               <div className="button-greeting-div">
                 <Button text="Contact me" href="#contact" />

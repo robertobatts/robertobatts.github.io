@@ -207,7 +207,7 @@ const workExperiences = {
       location: "London, UK",
       companylogo: require("./assets/images/playtikaLogo.png"),
       date: "Oct 2021 – Now",
-      desc: "Developing microservices for a mobile game with Java, Spring Cloud, Redis, Aerospike"
+      desc: "I designed and developed microservices for a casual mobile game, and I developed internal tools for assets delivery"
     },
     {
       role: "Backend Developer",
@@ -215,24 +215,15 @@ const workExperiences = {
       location: "London, UK",
       companylogo: require("./assets/images/cogitareLogo.png"),
       date: "Nov 2019 – Oct 2021",
-      descBullets: [
-        "Designed and implemented RESTful services on a web application to monitor and improve London's Rail Network performance (Java 8, Spring Boot, Spring Data, MongoDB)",
-        "Developed asynchronous services in an event-driven application to process data from train black boxes (Apache Kafka)",
-        "Set up a CI/CD environment from scratch (Jenkins, Artifactory)",
-        "Wrote unit and integration tests (Junit, Mockito, Spring Boot Test)"
-      ]
+      desc: "I developed APIs for software which provides graph and reports for railway companies. I also processed data from different sources such as GPS, signalling and train black boxes"
     },
     {
-      role: "Software Developer",
+      role: "Junior Backend Developer",
       company: "GFT Technologies",
       location: "Milan, Italy",
       companylogo: require("./assets/images/gftLogo.png"),
       date: "Oct 2018 – Oct 2019",
-      descBullets: [
-        "Implemented RESTful web services with MVC approach (Java 8, Spring Boot, MyBatis, DB2 SQL)",
-        "Worked on a real-time data updating system for external services communication that fulfills ACID properties (Java Message Service, Enterprise JavaBeans, IBM MQ)",
-        "Developed UI components (Angular 4)"
-      ]    
+      desc: "I implemented services for the CRM of an insurance company" 
     }
   ]
 };
@@ -345,16 +336,10 @@ const blogSection = {
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      url: "",
+      title: "",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
-    },
-    {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
-      description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+        ""
     }
   ],
   display: false // Set false to hide this section, defaults to true
