@@ -23,7 +23,7 @@ const greeting = {
     { text: "MongoDB", backspace: 20 },
     { text: "I love cutting edge technology", backspace: -1 }
   ],
-  resumeLink: process.env.PUBLIC_URL + "/#/resume", // Set to empty to hide the button
+  resumeLink: process.env.PUBLIC_URL + "/resume.pdf", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
