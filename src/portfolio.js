@@ -20,7 +20,8 @@ const greeting = {
     { text: "Java", backspace: -1 },
     { text: "Spring", backspace: -1 },
     { text: "Microservices", backspace: -1 },
-    { text: "MongoDB", backspace: 20 },
+    { text: "AWS", backspace: -1 },
+    { text: "SQL", backspace: 20 },
     { text: "I love cutting edge technology", backspace: -1 }
   ],
   resumeLink: process.env.PUBLIC_URL + "/resume.pdf", // Set to empty to hide the button
@@ -202,11 +203,19 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Software Engineer",
+      company: "Monese",
+      location: "London, UK",
+      companylogo: require("./assets/images/moneseLogo.png"),
+      date: "Aug 2022 – Now",
+      desc: "I worked in the promotion and budgeting section of Monese app, having implemented features on the backend of a microservices architecture"
+    },
+    {
       role: "Backend Developer",
       company: "Playtika",
       location: "London, UK",
       companylogo: require("./assets/images/playtikaLogo.png"),
-      date: "Oct 2021 – Now",
+      date: "Oct 2021 – Jun 2022",
       desc: "I designed and developed microservices for a casual mobile game, and I developed internal tools for assets delivery"
     },
     {
