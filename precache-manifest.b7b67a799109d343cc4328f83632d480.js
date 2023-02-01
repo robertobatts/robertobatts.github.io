@@ -1,43 +1,43 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "39a3fd084f4aec8574d1594358562f27",
+    "revision": "7901b06133680cfcaf3b161931a9a641",
     "url": "/index.html"
   },
   {
-    "revision": "178f84c0015bc33d39d0",
+    "revision": "e34639bd80aff9f2bd7f",
     "url": "/static/css/3.df879eac.chunk.css"
   },
   {
-    "revision": "1c36e175e644d87bb13f",
+    "revision": "f65afe1d69325ebed423",
     "url": "/static/css/4.e91a4b36.chunk.css"
   },
   {
-    "revision": "01689e9758bfb22089bc",
+    "revision": "ceedf315e9a053b152ff",
     "url": "/static/css/main.5345f033.chunk.css"
   },
   {
-    "revision": "3609ffaf6f6dc3205300",
-    "url": "/static/js/2.0e0a37bb.chunk.js"
+    "revision": "3a9fd3e68d1ebf545eaa",
+    "url": "/static/js/2.5707cdcb.chunk.js"
   },
   {
     "revision": "408f8ade359af8695a328ed937291fdf",
-    "url": "/static/js/2.0e0a37bb.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.5707cdcb.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "178f84c0015bc33d39d0",
-    "url": "/static/js/3.a6b860ab.chunk.js"
+    "revision": "e34639bd80aff9f2bd7f",
+    "url": "/static/js/3.d8bae1ae.chunk.js"
   },
   {
-    "revision": "1c36e175e644d87bb13f",
-    "url": "/static/js/4.8784c6ee.chunk.js"
+    "revision": "f65afe1d69325ebed423",
+    "url": "/static/js/4.7d26f436.chunk.js"
   },
   {
-    "revision": "01689e9758bfb22089bc",
-    "url": "/static/js/main.60929ff9.chunk.js"
+    "revision": "ceedf315e9a053b152ff",
+    "url": "/static/js/main.b2a543b3.chunk.js"
   },
   {
-    "revision": "b12a0e9dfcf13945f003",
-    "url": "/static/js/runtime-main.98d79da7.js"
+    "revision": "b159f2fc36d4dca85640",
+    "url": "/static/js/runtime-main.76a68550.js"
   },
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
@@ -70,6 +70,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "6298d76ad8a416dfba12f0b53f96a7a4",
     "url": "/static/media/manOnTable.6298d76a.svg"
+  },
+  {
+    "revision": "def51a86d6cb19a8629bebf11add641a",
+    "url": "/static/media/moneseLogo.def51a86.png"
   },
   {
     "revision": "829ad0a1deef4d7295adfecdf12df2be",
