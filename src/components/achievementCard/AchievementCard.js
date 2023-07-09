@@ -12,6 +12,7 @@ export default function AchievementCard({cardInfo, isDark}) {
   }
 
   return (
+    <a href={cardInfo.url} target="_blank" style={{textDecoration: "unset"}}>
     <div className={isDark ? "dark-mode certificate-card" : "certificate-card"}>
       <div className="certificate-image-div">
         <img src={cardInfo.image} alt="PWA" className="card-image"></img>
@@ -40,5 +41,6 @@ export default function AchievementCard({cardInfo, isDark}) {
         })}
       </div>
     </div>
+    </a>
   );
 }
