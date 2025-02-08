@@ -49,8 +49,8 @@ $darkBoxShadow2: #ffffff;
 
 // linear gradients
 $experienceCardBlurredDivLG: linear-gradient(
-  rgba(0, 0, 0, 0.4),
-  rgba(0, 0, 0, 0.2)
+  rgb(255 255 255 / 9%), 
+  rgb(0 0 0 / 26%)
 );
 $experienceCardBannerLG: linear-gradient(
   rgba(0, 0, 0, 0.7),

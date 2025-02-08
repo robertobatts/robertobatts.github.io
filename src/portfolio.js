@@ -22,7 +22,6 @@ const greeting = {
     { text: "Microservices", backspace: -1 },
     { text: "AWS", backspace: -1 },
     { text: "SQL", backspace: 20 },
-    { text: "I love cutting edge technology", backspace: -1 }
   ],
   resumeLink: process.env.PUBLIC_URL + "/resume.pdf", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -193,10 +192,18 @@ const workExperiences = {
   experience: [
     {
       role: "Software Engineer",
-      company: "Monese",
+      company: "XYB",
+      location: "Full Remote",
+      companylogo: require("./assets/images/xybLogo.png"),
+      date: "May 2024 – Now",
+      desc: ""
+    },
+    {
+      role: "Software Engineer",
+      company: "Monese / XYB",
       location: "London, UK",
       companylogo: require("./assets/images/moneseLogo.png"),
-      date: "Aug 2022 – Now",
+      date: "Aug 2022 – May 2024",
       desc: "I worked with a microservice architecture, implementing feature such as Custom Categories and Transaction Enrichment"
     },
     {
@@ -330,7 +337,7 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for everyone",
-  number: "+44 7448651092",
+  //number: "",
   email_address: "battaroberto@gmail.com"
 };
 
