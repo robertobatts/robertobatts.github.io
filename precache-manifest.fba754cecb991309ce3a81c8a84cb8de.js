@@ -1,43 +1,43 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a2f18091bc6dbbb998b391771afe43c0",
+    "revision": "e8de84703782d20f4504d76fd68b2b9b",
     "url": "/index.html"
   },
   {
-    "revision": "c9b477fdabafb59e7eb9",
-    "url": "/static/css/3.df879eac.chunk.css"
+    "revision": "ed226311e081f0ed9eab",
+    "url": "/static/css/3.248e1f8e.chunk.css"
   },
   {
-    "revision": "dc76aa80bfbc71f04b67",
-    "url": "/static/css/4.e91a4b36.chunk.css"
+    "revision": "2d56450bc25e2967b1c8",
+    "url": "/static/css/4.72b955b6.chunk.css"
   },
   {
-    "revision": "03463cc747d1936a2c47",
-    "url": "/static/css/main.9ebcb504.chunk.css"
+    "revision": "0d8d973840726e5ed949",
+    "url": "/static/css/main.1e75f7fb.chunk.css"
   },
   {
-    "revision": "8c8355d665e346b64a48",
-    "url": "/static/js/2.bb22e052.chunk.js"
+    "revision": "8240b7d68f76a6c3cb62",
+    "url": "/static/js/2.b0a9669c.chunk.js"
   },
   {
     "revision": "408f8ade359af8695a328ed937291fdf",
-    "url": "/static/js/2.bb22e052.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.b0a9669c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c9b477fdabafb59e7eb9",
-    "url": "/static/js/3.5714dcde.chunk.js"
+    "revision": "ed226311e081f0ed9eab",
+    "url": "/static/js/3.f0c0fa70.chunk.js"
   },
   {
-    "revision": "dc76aa80bfbc71f04b67",
-    "url": "/static/js/4.1f2c580b.chunk.js"
+    "revision": "2d56450bc25e2967b1c8",
+    "url": "/static/js/4.326d3fdd.chunk.js"
   },
   {
-    "revision": "03463cc747d1936a2c47",
-    "url": "/static/js/main.beb06e9c.chunk.js"
+    "revision": "0d8d973840726e5ed949",
+    "url": "/static/js/main.883cb45a.chunk.js"
   },
   {
-    "revision": "ed2a2dd64acfa4870b1e",
-    "url": "/static/js/runtime-main.59e3db10.js"
+    "revision": "185c800a0a8a5000db55",
+    "url": "/static/js/runtime-main.86bdbf40.js"
   },
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
@@ -78,5 +78,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "13780cdd0144cacdef25486e2c2503f8",
     "url": "/static/media/talksCardBack.13780cdd.svg"
+  },
+  {
+    "revision": "ca9abde0608bd844a7d178083cbdba22",
+    "url": "/static/media/xybLogo.ca9abde0.png"
   }
 ]);
