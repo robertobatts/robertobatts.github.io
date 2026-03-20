@@ -23,7 +23,7 @@ const greeting = {
     { text: "AWS", backspace: -1 },
     { text: "SQL", backspace: 20 },
   ],
-  resumeLink: process.env.PUBLIC_URL + "/resume.pdf", // Set to empty to hide the button
+  resumeLink: process.env.PUBLIC_URL + "/cv.pdf", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
