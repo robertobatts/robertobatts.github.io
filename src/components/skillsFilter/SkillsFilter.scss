@@ -1,22 +1,24 @@
 @import "../../_globalColor";
 
 .skills-filter-wrapper {
-  margin: 0.2rem 0.5rem;
-  padding: 4px;
+  margin: 0.2rem 0.4rem;
+  padding: 2px;
 }
 
 .skills-filter {
   display: inline-block;
-  background-color: $buttonColor;
-  border: solid 1px $buttonColor;
-  color: $textColorDark;
-  font-weight: 700;
+  background: rgba(99, 102, 241, 0.1);
+  border: solid 1px rgba(99, 102, 241, 0.3);
+  color: $buttonColor;
+  font-weight: 600;
   width: max-content;
   text-transform: uppercase;
-  border-radius: 6px;
+  letter-spacing: 0.06em;
+  border-radius: 50px;
   text-align: center;
   text-decoration: none;
-  font-size: 13px;
+  font-size: 12px;
+  transition: all 0.2s ease;
 }
 
 .skills-filter-select {
@@ -25,4 +27,7 @@
 }
 
 .skills-filter-select:hover {
+  background: $buttonColor;
+  color: white;
+  border-color: $buttonColor;
 }

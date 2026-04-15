@@ -10,19 +10,16 @@
   width: 90%;
   padding: 20px 10px;
   margin: 0px auto;
-  margin-top: 2rem;
+  margin-top: 3rem;
 }
 
 .greeting-main {
   display: flex;
+  align-items: center;
 }
 
 .subTitle {
   color: $subTitle !important;
-}
-
-.greeting-main {
-  display: flex;
 }
 
 .greeting-main > * {
@@ -31,19 +28,48 @@
 }
 .button-greeting-div {
   display: flex;
-  margin-top: 20px;
+  margin-top: 28px;
+  gap: 4px;
 }
 
 .greeting-text {
-  font-size: 70px;
-  min-width: 446px;
+  font-size: 68px;
+  min-width: 420px;
   line-height: 1.1;
-  color: $textColor !important;
+  font-weight: 700;
+  color: $titleColor;
+}
+
+.dark-mode.greeting-text {
+  color: $textColorDark;
+}
+
+// Gradient only on the title Typist element, not the whole wrapper
+.TypistExample-header {
+  background: linear-gradient(135deg, $titleColor 0%, $buttonColor 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  display: inline-block;
+}
+
+.dark-mode .TypistExample-header {
+  background: linear-gradient(135deg, #e2e8f0 0%, #818cf8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 .greeting-text-p {
-  font-size: 30px;
+  font-size: 26px;
   line-height: 40px;
+  color: $subTitle;
+  font-weight: 400;
+  min-height: 40px;
+}
+
+.dark-mode .greeting-text-p {
+  color: #94a3b8;
 }
 
 .greeting-image-div > img {
@@ -88,7 +114,7 @@
 /* Media Query */
 @media (max-width: 1380px) {
   .greeting-text {
-    font-size: 50px;
+    font-size: 48px;
   }
   .greeting-text-p {
     font-size: 20px;
@@ -96,10 +122,11 @@
 }
 @media (max-width: 768px) {
   .button-greeting-div {
-    justify-content: space-around;
+    justify-content: center;
+    flex-wrap: wrap;
   }
   .greeting-text {
-    font-size: 30px;
+    font-size: 32px;
     text-align: center;
     min-width: 0;
   }
@@ -119,7 +146,7 @@
 
 @media (max-width: 320px) {
   .greeting-text {
-    font-size: 30px;
+    font-size: 28px;
     text-align: center;
     min-width: 0;
   }

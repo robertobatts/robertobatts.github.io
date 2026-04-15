@@ -2,14 +2,17 @@
 
 .footer-text {
   text-align: center;
-  color: $subTitle !important;
-}
-
-.dark-mode {
-  color: $textColorDark !important;
+  color: $subTitle;
+  font-size: 0.9rem;
+  letter-spacing: 0.01em;
 }
 
 .footer-div {
-  margin-top: 2rem;
-  padding-bottom: 1rem;
+  margin-top: 3rem;
+  padding: 1.5rem 0;
+  border-top: 1px solid $lightBorder1;
+}
+
+.dark-mode .footer-div {
+  border-top-color: rgba(99, 102, 241, 0.12);
 }

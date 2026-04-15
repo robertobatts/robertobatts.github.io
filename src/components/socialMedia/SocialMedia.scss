@@ -2,6 +2,7 @@
 
 .social-media-div {
   font-size: 2em;
+  margin-top: 8px;
 }
 
 .icon-button {
@@ -25,7 +26,7 @@
   user-select: none;
   width: 2.6rem;
   margin-bottom: 10px;
-  transition: 0.2s ease-in;
+  transition: transform 0.2s ease, opacity 0.2s ease;
 }
 
 .facebook i {
@@ -79,7 +80,8 @@
 .stack-overflow i:hover,
 .kaggle i:hover,
 .medium i:hover {
-  background-color: $textColor;
+  transform: translateY(-3px) scale(1.08);
+  opacity: 0.88;
 }
 
 /* Media Query */

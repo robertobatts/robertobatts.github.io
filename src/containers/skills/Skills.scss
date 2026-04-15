@@ -21,10 +21,17 @@
 }
 
 .skills-heading {
-  font-size: 56px;
-  font-weight: 400;
-  margin-bottom: 20px;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 24px;
+  color: $titleColor;
 }
+
+.dark-mode .skills-heading,
+.dark-mode.skills-heading {
+  color: $textColorDark;
+}
+
 .subTitle {
   color: $subTitle;
 }
@@ -32,13 +39,13 @@
 /* Media Query */
 @media (max-width: 1380px) {
   .skills-heading {
-    font-size: 40px;
-    margin-bottom: 0px;
+    font-size: 36px;
+    margin-bottom: 20px;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .skills-heading {
-    font-size: 30px;
+    font-size: 28px;
     text-align: center;
   }
   .greeting-text-p {
@@ -60,7 +67,11 @@
     text-align: center;
   }
   .skills-image-div {
-    /* display: none; */
     order: 2;
+    display: flex;
+    justify-content: center;
+    img {
+      max-width: 500px;
+    }
   }
 }

@@ -13,15 +13,21 @@ const illustration = {
 const greeting = {
   username: "Roberto Battaglia",
   title: "Hi, I'm Roberto",
-  
+
   subTitles: [
-    { text: "I'm a Backend Developer", backspace: -1 },
-    { text: "I work with ", backspace: 0 },
+    { text: "I'm a Software Engineer", backspace: 19 },
+    { text: "AWS certified", backspace: 17 },
+    { text: "I build scalable systems", backspace: -1 },
+    { text: "Java & Spring enthusiast", backspace: -1 },
+    { text: "I work with microservices", backspace: -1 },
+    { text: "or monoliths", backspace: -1 },
+    { text: "I build webapps using ", backspace: 0 },
     { text: "Java", backspace: -1 },
     { text: "Spring", backspace: -1 },
-    { text: "Microservices", backspace: -1 },
     { text: "AWS", backspace: -1 },
-    { text: "SQL", backspace: 20 },
+    { text: "React", backspace: -1 },
+    { text: "TypeScript", backspace: -1 },
+    { text: "SQL", backspace: 27 },
   ],
   resumeLink: process.env.PUBLIC_URL + "/cv.pdf", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -71,10 +77,10 @@ https://fontawesome.com/icons?d=gallery */
       workExperiences: ["Playtika", "Cogitare", "GFT", "Personal Projects"]
     },
     {
-      skillName: "MongoDB",
-      fontClassname: "icon-mongodb",
-      level: "Proficient",
-      workExperiences: ["Cogitare", "Personal Projects"]
+      skillName: "PostgreSQL",
+      fontClassname: "icon-postgres",
+      level: "Medium",
+      workExperiences: ["GFT", "Personal Projects"]
     },
     {
       skillName: "Redis",
@@ -95,10 +101,10 @@ https://fontawesome.com/icons?d=gallery */
       workExperiences: ["Playtika", "Cogitare", "GFT", "Personal Projects"]
     },
     {
-      skillName: "MySQL",
-      fontClassname: "icon-mysql",
-      level: "Medium",
-      workExperiences: ["GFT", "Personal Projects"]
+      skillName: "Elixir",
+      fontClassname: "icon-elixir",
+      level: "Beginner",
+      workExperiences: ["Personal Projects"]
     },
     {
       skillName: "Microservices",
@@ -107,10 +113,10 @@ https://fontawesome.com/icons?d=gallery */
       workExperiences: ["Playtika", "Personal Projects"]
     },
     {
-      skillName: "Go",
-      fontClassname: "icon-go",
-      level: "Beginner",
-      workExperiences: ["Personal Projects"]
+      skillName: "MongoDB",
+      fontClassname: "icon-mongodb",
+      level: "Proficient",
+      workExperiences: ["Cogitare", "Personal Projects"]
     },
     {
       skillName: "JavaScript",
@@ -192,10 +198,18 @@ const workExperiences = {
   experience: [
     {
       role: "Software Engineer",
+      company: "Sibill",
+      location: "Full Remote",
+      companylogo: require("./assets/images/sibillLogo.jpg"),
+      date: "Aug 2025 – Now",
+      desc: ""
+    },
+    {
+      role: "Software Engineer",
       company: "XYB",
       location: "Full Remote",
       companylogo: require("./assets/images/xybLogo.png"),
-      date: "May 2024 – Now",
+      date: "May 2024 – Aug 2025",
       desc: ""
     },
     {

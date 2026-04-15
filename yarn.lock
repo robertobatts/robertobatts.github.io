@@ -9310,9 +9310,8 @@ qs@6.10.3:
     side-channel "^1.0.4"
 
 "quantize@github:lokesh/quantize":
-  version "1.2.0"
-  resolved "https://codeload.github.com/lokesh/quantize/tar.gz/f572abd2646b5944852535c8a26fdb958a5d7c4b"
-  integrity sha512-uQmY3WmzP8gk2b6tsD6XwfBpn2exLQGArHEP3zMhmSGKmglcM2Syv38idpm81Z8wIFlZ7MNTnDFB/+s5DUR1vQ==
+  version "1.4.0"
+  resolved "git+ssh://git@github.com/lokesh/quantize.git#270c6f81623c3247eed50ba37b9d74d79af7a267"
 
 query-string@^4.1.0:
   version "4.3.4"

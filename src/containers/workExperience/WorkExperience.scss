@@ -1,16 +1,25 @@
+@import "../../_globalColor";
+
 .experience {
   overflow: hidden;
 }
 
 .experience-cards-div {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
-  gap: 1rem 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
 }
 
 .experience-heading {
-  font-size: 56px;
-  font-weight: 400;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 24px;
+  color: $titleColor;
+}
+
+.dark-mode .experience-heading,
+.dark-mode.experience-heading {
+  color: $textColorDark;
 }
 
 .experience-container {
@@ -29,13 +38,15 @@
 
 @media (max-width: 1380px) {
   .experience-heading {
-    font-size: 40px;
+    font-size: 36px;
+    margin-bottom: 20px;
   }
 }
 
 @media (max-width: 768px) {
   .experience-heading {
-    font-size: 30px;
+    font-size: 28px;
+    margin-bottom: 20px;
     text-align: center;
   }
 }
