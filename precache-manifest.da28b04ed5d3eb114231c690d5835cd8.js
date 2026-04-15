@@ -1,43 +1,43 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b67e6d0911a80b918f3798fdda4bbacb",
+    "revision": "3f7f1453ea5545c84d3d023a96e51a56",
     "url": "/index.html"
   },
   {
-    "revision": "f38bde95e5fe20e20a92",
-    "url": "/static/css/3.248e1f8e.chunk.css"
+    "revision": "6f87c083992b6e2e9821",
+    "url": "/static/css/3.1da331f2.chunk.css"
   },
   {
-    "revision": "f06ca5985ae9015ecb28",
-    "url": "/static/css/4.72b955b6.chunk.css"
+    "revision": "0ce96cc34b35f7e6921a",
+    "url": "/static/css/4.abf2c4ff.chunk.css"
   },
   {
-    "revision": "5f8603960dc6d383a295",
-    "url": "/static/css/main.00deb062.chunk.css"
+    "revision": "6ea270bcc2eb2d1215e4",
+    "url": "/static/css/main.fb39d3da.chunk.css"
   },
   {
-    "revision": "abc976bb2a114c94dd3c",
-    "url": "/static/js/2.0242051d.chunk.js"
+    "revision": "331699317201f0b91709",
+    "url": "/static/js/2.8aba1c37.chunk.js"
   },
   {
     "revision": "408f8ade359af8695a328ed937291fdf",
-    "url": "/static/js/2.0242051d.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.8aba1c37.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f38bde95e5fe20e20a92",
-    "url": "/static/js/3.a3ebf298.chunk.js"
+    "revision": "6f87c083992b6e2e9821",
+    "url": "/static/js/3.21731607.chunk.js"
   },
   {
-    "revision": "f06ca5985ae9015ecb28",
-    "url": "/static/js/4.213e4dbc.chunk.js"
+    "revision": "0ce96cc34b35f7e6921a",
+    "url": "/static/js/4.363a35d6.chunk.js"
   },
   {
-    "revision": "5f8603960dc6d383a295",
-    "url": "/static/js/main.ccc9d690.chunk.js"
+    "revision": "6ea270bcc2eb2d1215e4",
+    "url": "/static/js/main.59a59486.chunk.js"
   },
   {
-    "revision": "5febc230378f93899a70",
-    "url": "/static/js/runtime-main.355043b4.js"
+    "revision": "d49e73821522873f9afa",
+    "url": "/static/js/runtime-main.3227a06a.js"
   },
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
@@ -70,6 +70,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e4ac5b496d593f9f7edb656d71702a1f",
     "url": "/static/media/playtikaLogo.e4ac5b49.png"
+  },
+  {
+    "revision": "288141718601f9f947680c538fa825fc",
+    "url": "/static/media/sibillLogo.28814171.jpg"
   },
   {
     "revision": "325282c1744a059b699257cc5d150c24",
